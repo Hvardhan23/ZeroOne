@@ -1,0 +1,34 @@
+{
+  "descriptive_statistics": {
+    "mean": 0.0,
+    "median": 0.0,
+    "minimum": 0,
+    "maximum": 0,
+    "standard_deviation": 0.0,
+    "variance": 0.0,
+    "quartile_1": 0.0,
+    "quartile_3": 0.0,
+    "percentile_25": 0.0,
+    "percentile_75": 0.0
+  },
+  "bankruptcy_metrics": {
+    "bankruptcy_rate": 1.0,
+    "number_bankrupt": 4,
+    "total_simulations": 4
+  },
+  "profitability_metrics": {
+    "profitable_rate": 0.0,
+    "loss_rate": 0.0,
+    "break_even_rate": 0.0,
+    "number_profitable": 0,
+    "number_losses": 0,
+    "number_bankrupt": 4
+  },
+  "survival_metrics": {
+    "average_iterations_survived": 0.0,
+    "median_iterations_survived": 0.0
+  },
+  "total_simulations": 4,
+  "starting_balance": 1000.0,
+  "num_simulations": 4
+}

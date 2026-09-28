@@ -1,0 +1,20 @@
+__pycache__
+.pytest_cache
+.venv
+venv
+*.egg-info/
+/.env
+*.swp
+*.8
+*~
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+# Experiment results (except what's explicitly committed)
+data/results/**
+results/detailed/**
+# IDE files
+.vscode/
+.idea/
+# OS files
+.DS_Store
+results/

@@ -1,0 +1,47 @@
+# Experiment Configuration for Probability & Betting Simulation
+# This file defines default configuration values used across experiments.
+
+experiment_name: coin_probability_simulation
+starting_chips: 100
+bets_per_iteration: 10
+win_side: HEADS
+loss_side: TAILS
+win_multiplier: 2
+minimum_bet: 1
+bankruptcy_rule: balance_below_minimum_bet
+coin_flips: 100
+random_seed: null
+number_of_simulations: 1
+save_detailed_results: true
+
+# Starting capital scenarios for betting experiments
+starting_capital_scenarios:
+  - name: low
+    starting_chips: 50
+  - name: baseline
+    starting_chips: 100
+  - name: high
+    starting_chips: 1000
+
+# Coin flip counts for Experiment 1
+# Experiment will run across these many-flip counts
+coin_flip_counts:
+  - 100
+  - 1000
+  - 10000
+  - 100000
+  - 1000000
+
+# Monte Carlo simulation configuration
+monte_carlo:
+  # Number of simulations to run per scenario/experiment
+  number_of_simulations: 1
+  # Save detailed per-simulation data (can be false for large experiments to save space)
+  save_detailed_results: true
+  # If using a master seed, child seeds are derived as seed + simulation_index
+  # If null, each simulation uses random seeds
+  master_seed: null
+
+# Experiment-specific overrides can be added below
+# override:
+#   starting_chips: 200
